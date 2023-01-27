@@ -499,16 +499,20 @@ section {
   }
 }
 
+#rotate-text {
+   writing-mode: vertical-rl !important;
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
   min-height: 700px;
-  background-image: url('HOME\ PAGE\ 3.jpg') top center;
   position: relative;
   padding: 50px 0;
   z-index: 3;
+  background: #2d378c;
 }
 
 @media (min-width: 1034px) {
@@ -2473,7 +2477,7 @@ right: auto;
 
 .resume-title {
   position: relative;
-  color: #fff;
+  color: rgb(252, 252, 255);
   margin: 0 0 2rem;
 }
 
@@ -2506,7 +2510,7 @@ right: auto;
   background: #0b065b77;
   transition: background 0.5s ease 0s, top 0.5s ease 0s;
   width: 75%;
-  margin-left: 150px !important;
+  margin-left: 100px !important;
 }
 
 .col-resume2 {
@@ -2550,7 +2554,7 @@ right: auto;
   margin-top: 1.2rem;
   margin-bottom: 0;
   color: white;
-  text-align: justify;
+  text-align:justify;
 }
 
 .resume-text.last {
