@@ -33,11 +33,12 @@
 --------------------------------------------------------------*/
 body {
   font-family: var(--font-default);
-  color: var(--color-default);
+  color: white;
+  background-color: #1b2f47;
 }
 
 a {
-  color: var(--color-primary);
+  color: white;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -53,7 +54,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-primary);
+  font-family: white;
 }
 
 /*--------------------------------------------------------------
@@ -621,7 +622,9 @@ section {
 }
 @media(min-width:768px){
   #lgo{
-    right: 100%;
+    right: 70%;
+    height: 100%!important;
+    width: 110%!important;
   }
 }
   #lgo{
@@ -631,11 +634,15 @@ section {
 @media(min-width:1080px){
   #lgo{
     right:60%;
+    top: 10%;
+    
   }
 }
 @media(max-width:768px){
   #lgo{
-    right: 100%;
+    right: 70%;
+    height: 100% !important;
+    width:110% !important;
   }
 }
 
@@ -2343,7 +2350,7 @@ section {
 /* body{margin-top:20px;}  */
 
 .feature-box-1 {
-background-color: #2d378c;
+background-color: white;;
 padding: 32px;
 box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
 margin: 30px;
@@ -2379,22 +2386,22 @@ font-size: 27px;
 line-height: 70px;
 }
 .feature-box-1 h5 {
-color: #efefef;
+color: #2d378c;
 font-weight: 600;
 }
 .feature-box-1 h2 {
-color: #f3f3f3;
+color: #2d378c;
 font-weight: 600;
 }
 .feature-box-1 h3 {
-color: #f3f3f3;
+color: #2d378c;
 font-size: 34px;
 text-align: center;
 font-weight: bold;
 
 }
 .feature-box-1 p {
-color: white;
+color: #2d378c;
 margin: 0;
 }
 .feature-box-1:after {
@@ -2406,7 +2413,7 @@ left: auto;
 right: 0;
 border-radius: 10px;
 width: 0;
-background: #f2f2f4;
+background: #2d378c;
 z-index: -1;
 -moz-transition: ease all 0.35s;
 -o-transition: ease all 0.35s;
@@ -2417,16 +2424,16 @@ transition: ease all 0.35s;
 top: -5px;
 }
 .feature-box-1:hover h5 {
-color: #090a20;
+color: #7ba1f1;
 }
 .feature-box-1:hover h2 {
-color: #3c45e4;
+color: #ffffff;
 }
 .feature-box-1:hover h3 {
-color: #3c45e4;
+color: #7ba1f1;
 }
 .feature-box-1:hover p {
-color: #0c0d1e;
+color: #f8f8f8;
 }
 .feature-box-1:hover:after {
 width: 100%;
